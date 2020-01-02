@@ -1,5 +1,5 @@
 header, footer {
-    background-color: #ffa500;
+    background-color: rgba(194, 54, 22,1.0);
     text-align: center;
     min-width: 500px;
   }
@@ -18,7 +18,7 @@ header, footer {
     justify-content:center;
     align-items:stretch;
    
-    align-content:center;
+    align-content:start;
     grid-auto-rows:500px;
     grid-auto-flow:column;
     
@@ -31,7 +31,7 @@ header, footer {
     font-weight: 600;
     letter-spacing: 0.3px;
     text-align: left;
-    color: #ffa500;
+    color:rgba(194, 54, 22,1.0);
     padding: 10px 0px 10px 10px;
   }
   
@@ -53,7 +53,7 @@ header, footer {
   }
 
   .d {
-      align-self: flex-end;
+      
   }
   
   .time {
